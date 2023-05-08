@@ -11,6 +11,11 @@
 		5AE7FAC32A08EED6004834A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE7FAC22A08EED6004834A6 /* ContentView.swift */; };
 		5AE7FAC52A08EED7004834A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE7FAC42A08EED7004834A6 /* Assets.xcassets */; };
 		5AE7FAC82A08EED7004834A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE7FAC72A08EED7004834A6 /* Preview Assets.xcassets */; };
+		5AE7FACF2A08EF06004834A6 /* Page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE7FACE2A08EF06004834A6 /* Page1.swift */; };
+		5AE7FAD12A08EF4F004834A6 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE7FAD02A08EF4F004834A6 /* Page2.swift */; };
+		5AE7FAD32A08EF76004834A6 /* Page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE7FAD22A08EF76004834A6 /* Page3.swift */; };
+		5AE7FAD82A08EFB9004834A6 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE7FAD72A08EFB9004834A6 /* Route.swift */; };
+		5AE7FADA2A08EFC3004834A6 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE7FAD92A08EFC3004834A6 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		5AE7FAC22A08EED6004834A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5AE7FAC42A08EED7004834A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AE7FAC72A08EED7004834A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AE7FACE2A08EF06004834A6 /* Page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1.swift; sourceTree = "<group>"; };
+		5AE7FAD02A08EF4F004834A6 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
+		5AE7FAD22A08EF76004834A6 /* Page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3.swift; sourceTree = "<group>"; };
+		5AE7FAD72A08EFB9004834A6 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		5AE7FAD92A08EFC3004834A6 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 		5AE7FABF2A08EED6004834A6 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				5AE7FADB2A08EFE0004834A6 /* Screens */,
+				5AE7FAD62A08EFA3004834A6 /* Route */,
 				5AE7FAC02A08EED6004834A6 /* NavigationApp.swift */,
 				5AE7FAC22A08EED6004834A6 /* ContentView.swift */,
 				5AE7FAC42A08EED7004834A6 /* Assets.xcassets */,
@@ -65,6 +77,25 @@
 				5AE7FAC72A08EED7004834A6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5AE7FAD62A08EFA3004834A6 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				5AE7FAD72A08EFB9004834A6 /* Route.swift */,
+				5AE7FAD92A08EFC3004834A6 /* Router.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		5AE7FADB2A08EFE0004834A6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5AE7FACE2A08EF06004834A6 /* Page1.swift */,
+				5AE7FAD02A08EF4F004834A6 /* Page2.swift */,
+				5AE7FAD22A08EF76004834A6 /* Page3.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE7FAD32A08EF76004834A6 /* Page3.swift in Sources */,
 				5AE7FAC32A08EED6004834A6 /* ContentView.swift in Sources */,
+				5AE7FAD12A08EF4F004834A6 /* Page2.swift in Sources */,
+				5AE7FADA2A08EFC3004834A6 /* Router.swift in Sources */,
+				5AE7FAD82A08EFB9004834A6 /* Route.swift in Sources */,
 				5AE7FAC12A08EED6004834A6 /* NavigationApp.swift in Sources */,
+				5AE7FACF2A08EF06004834A6 /* Page1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
